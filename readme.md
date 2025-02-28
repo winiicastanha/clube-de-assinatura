@@ -1,7 +1,7 @@
 <h1 align="center"> Encantos literários </h1>
 
 <p align="center">
-Desafio prático da trila Fullstack da Rocketseat.
+Desafio prático da trilha Fullstack da Rocketseat.
 </p>
 
 <p align="center">
