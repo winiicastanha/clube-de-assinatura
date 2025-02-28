@@ -66,6 +66,7 @@ html {
 body{
   background-color: var(--shape-background);
   overflow-x: hidden;
+  color: var(--text-body);
 }
 
 a {

@@ -2,6 +2,13 @@
   display: flex;
 }
 
+.container{
+  --max-width: 375px;
+  width: min(var(--max-width), 100% - 1.25rem * 2);
+  margin-inline: auto;
+  /* border: 1px solid violet; */
+}
+
 .grid {
   display: grid;
 }
@@ -21,5 +28,8 @@
 @media (width >= 750px) {
   .desktop-only {
       display: inline-block;
+  }
+  .container {
+    --max-width: 80rem;
   }
 }
